@@ -96,15 +96,15 @@
 	<distributionManagement>
 	
 	    <repository>
-        <id>central</id>
-        <name>ip-172-31-41-240.ap-south-1.compute.internal-releases</name>
-        <url>http://35.154.93.23:8081/artifactory/libs-release</url>
-    </repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://54.255.174.111:8081/repository/flipkart-release/</url>
+	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>snapshots</id>
-        <name>ip-172-31-41-240.ap-south-1.compute.internal-snapshots</name>
-        <url>http://35.154.93.23:8081/artifactory/libs-snapshot</url>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://54.255.174.111:8081/repository/flipkart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
